@@ -1,0 +1,31 @@
+{
+    "trailing-spaces.trimOnSave": true,
+    "explorer.confirmDelete": false,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "window.commandCenter": false,
+    "terminal.integrated.scrollback": 20000,
+    "rust-analyzer.workspace.symbol.search.scope": "workspace_and_dependencies",
+    "rust-analyzer.linkedProjects": [
+        "Cargo.toml"
+    ],
+    "rust-analyzer.cargo.extraEnv": {
+        "SKIP_WASM_BUILD": 1
+    },
+    "rust-analyzer.diagnostics.disabled": [
+        "mismatched-types"
+    ],
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "terminal.integrated.bellDuration": 50000,
+    "git.suggestSmartCommit": false,
+    "files.associations": {
+        "*.service": "shellscript"
+    },
+    "gitlens.views.commitDetails.files.layout": "list",
+    "git.openRepositoryInParentFolders": "never"
+}
