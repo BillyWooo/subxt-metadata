@@ -178,3 +178,17 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     Ok(())
 }
+
+
+
+
+    // let factory_heima = SubxtClientFactory::<CustomConfig>::new("wss://rpc.heima-parachain.heima.network");
+    // let mut client_heima = factory_heima.new_client().await?;
+    // let metadata_heima_raw = client_heima.get_raw_metadata(None).await.unwrap();
+    // let runtime_metadata_heima = RuntimeMetadataPrefixed::decode(&mut metadata_heima_raw.as_slice()).unwrap();
+
+    // let factory_local = SubxtClientFactory::<CustomConfig>::new("ws://localhost:9944");
+    // let mut client_local = factory_local.new_client().await?;
+    // let metadata_local_raw = client_local.get_raw_metadata(None).await.unwrap();
+    // let runtime_metadata_local = RuntimeMetadataPrefixed::decode(&mut metadata_local_raw.as_slice()).unwrap();
+
